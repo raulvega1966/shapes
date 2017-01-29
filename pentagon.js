@@ -2,7 +2,7 @@
 
 
 // requiring our module exported from triangle.js
-var Shape = require("./shape.js");
+var Shape = require("./shapes.js");
 
 
 /*
@@ -26,4 +26,4 @@ function Pentagon(side1, side2, side3, side4, side5) {
 
 
 /* export the info from the function Pentagon above*/
-module.exports=Pentagon;
+module.exports = Pentagon;

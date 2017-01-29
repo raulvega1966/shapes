@@ -11,9 +11,9 @@ Mozilla Foundation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
  This will bring the information from the other 3 js files (triangle, square, pentagon)
 */
 
-var Tri = require = ("./triangle.js");
-var Squ = require = ("./square.js");
-var Pen = require = ("./pentagon.js");
+var Tri = require ("./triangle.js");
+var Squ = require ("./square.js");
+var Pen = require ("./pentagon.js");
 
 
 /*
@@ -46,35 +46,39 @@ Tri.prototype = new Shape();
 Tri.prototype.constructor = Tri;
 
 Squ.prototype = new Shape();
-Squ.prototype.constructor = Tri;
+Squ.prototype.constructor = Squ;
 
 Pen.prototype = new Shape();
-Pen.prototype.constructor = Tri;
+Pen.prototype.constructor = Pen;
 
 
 /*
 This is for creating variables for each shape constructor
 */
-var shapenew = new Shape()
-var trinew = new Tri(1,2,2,3);
+//var shapenew = new Shape()
+var trinew = new Tri(1, 2, 3);
 var squnew = new Squ(4);
-var pennew = new Pen(1,2,3,4,5)
+var pennew = new Pen(1, 2, 3, 4, 5)
 
 /*
 console log the new variables listed above
 */
-console.log(shapenew.get_type());
-console.log(trinew.get_type());
-console.log(squnew.get_type());
-console.log(pennew.get_type());
+//console.log("shapenew.get_type()); " + shapenew.get_type());
+console.log("trinew.get_type()); " + trinew.get_type());
+console.log("squnew.get_type()); " + squnew.get_type());
+console.log("pennew.get_type()); " + pennew.get_type());
 
 /*
-console log the instance of to confirm code is working correctly
+console log the "instanceof" to confirm code is working correctly
 */
-console.log(trinew instanceof Tri);
-console.log(trinew instanceof Shape);
-console.log(squnew instanceof Pen);
-console.log(squnew instanceof Shape);
-console.log(pennew instanceof Squ);
-console.log(pennew instanceof Shape);
+console.log("trinew instanceof Tri); " + trinew instanceof Tri);
+console.log("trinew instanceof Shape); " + trinew instanceof Shape);
+
+console.log("squnew instanceof Squ); " + squnew instanceof Squ);
+console.log("squnew instanceof Shape); " + squnew instanceof Shape);
+
+console.log("pennew instanceof Pen); " + pennew instanceof Pen);
+console.log("pennew instanceof Shape); " + pennew instanceof Shape);
+
+
  
