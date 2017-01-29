@@ -72,13 +72,14 @@ var tri = new Triangle();
 var squ = new Square();
 var pen = new Pentagon();
 
-/*
+/*This does nothing....
 console log the new variables.get_type.
-*/
 //console.log("shape.get_type())---> " + shape.get_type());
 console.log("tri.get_type())---> " + tri.get_type());
 console.log("squ.get_type------>" + squ.get_type());
 console.log("pen.get_type())---> " + pen.get_type());
+*/
+
 
 /*
 console log the "instanceof" to confirm code is working correctly
