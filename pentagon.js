@@ -2,7 +2,7 @@
 
 
 // requiring our module exported from triangle.js
-var Shape = require("./shapes.js");
+//var Shape = require("./shapes.js");
 
 
 /*

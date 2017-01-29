@@ -5,7 +5,7 @@ Variable Shape -
 This will bring the info from the shapes.js file
 */
 
-var Shape = require ("./shapes.js");
+//var Shape = require ("./shapes.js");
 
 
 // constructor function for square

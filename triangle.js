@@ -1,6 +1,6 @@
 "use strict";
 
-var Shape = require("./shapes.js")
+//var Shape = require("./shapes.js")
 
 /*
  constructor function for triangle
